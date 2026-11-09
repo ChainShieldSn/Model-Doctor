@@ -37,6 +37,12 @@ hermes plugins install <this-repo>
 ln -s /path/to/model-doctor ~/.hermes/plugins/model-doctor
 ```
 
+Verify without a Hermes install — hermetic, touches no operator state:
+
+```bash
+python3 selfcheck.py   # → ALL CHECKS PASSED
+```
+
 ## Example
 
 > "why does my chat keep dying?"
